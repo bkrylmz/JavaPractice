@@ -10,10 +10,12 @@ public class ParkingLot {
 
     BMW bmw = new BMW("X5", 2020, 67350, "Black", 12000);
 
-
+    bmw.year = 2021;
     toyata.start();
     tesla.start();
     bmw.start();
+        System.out.println("----------------------------------");
+        System.out.println(bmw);
 
 
 }
